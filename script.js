@@ -1,8 +1,8 @@
 //your JS code here. If required.
-let input =prompt("Enter a String")
+let input =prompt("Enter a String");
 
 function f (str){
-	for(let i =0;i<str.length,i++){
+	for(let i =0;i<str.length;i++){
 		const currchar = str[i];
 		if(str.indexOf(currchar)=== str.lastIndexOf(currchar)){
 			return currchar;
